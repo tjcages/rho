@@ -1,16 +1,15 @@
 # Rho Front-End Marketing Challenge
 
 ## Approach
-In order to build a maintainable system for longevity and future simplicity, I made some improvements to the original design provided:
 
-1. **Code Organization**: I structured the code in a modular and organized way, following best practices for front-end development. I created separate components for different sections of the landing page, such as header, footer, and main content, and used a component-based approach to promote reusability and maintainability.
+1. **Code Organization**: Structured code in a modular & organized way, using a component-based approach for reusability & maintainability.
 
-2. **Responsive Design**: I ensured that the landing page is fully responsive and adapts to different screen sizes, including desktop and mobile devices. I used media queries and responsive design techniques to provide a seamless experience across different devices, making sure that the layout and content are optimized for each screen size.
+2. **Responsive Design**: Ensured full responsiveness for desktop & mobile devices using media queries.
 
-3. **Accessibility**: I made sure that the landing page is accessible and adheres to web accessibility standards. I used semantic HTML elements, added alt text to images for screen readers, and ensured that the page is keyboard navigable for users who rely on keyboard input.
+3. **Fluid Experience**: Made the landing page look & feel smooth with snapping for desktop but standard scrolling for mobile.
 
-4. **Performance Optimization**: I optimized the performance of the landing page by optimizing images, minifying CSS and JavaScript files, and reducing unnecessary HTTP requests. I also used lazy loading and code splitting techniques to improve the loading speed of the page, ensuring a smooth user experience.
+4. **Performance Optimization**: Used [NextJS](https://nextjs.org/) – say less?
 
-5. **Animations**: I added animations to enhance the visual appeal and user engagement of the landing page. I used CSS animations and transitions to add subtle animations to elements such as buttons and images, making the page more interactive and engaging for users.
+5. **Animations**: Added [Framer Motion](https://www.framer.com/motion/) animations & transitions to narrow a user's focus to only the currently applicable element.
 
-Overall, I focused on building a maintainable system for longevity and future simplicity by following best practices for front-end development, ensuring responsiveness, accessibility, performance optimization, and adding animations to enhance the user experience.
+Focused on best practices for front-end development, responsiveness, accessibility, performance optimization, & animations to enhance the user experience. To build a maintainable system for longevity & future simplicity, I made slight improvements to the original design.
