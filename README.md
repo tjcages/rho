@@ -1,38 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rho Front-End Marketing Challenge
 
-## Getting Started
+## Approach
+In order to build a maintainable system for longevity and future simplicity, I made some improvements to the original design provided:
 
-First, run the development server:
+1. **Code Organization**: I structured the code in a modular and organized way, following best practices for front-end development. I created separate components for different sections of the landing page, such as header, footer, and main content, and used a component-based approach to promote reusability and maintainability.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+2. **Responsive Design**: I ensured that the landing page is fully responsive and adapts to different screen sizes, including desktop and mobile devices. I used media queries and responsive design techniques to provide a seamless experience across different devices, making sure that the layout and content are optimized for each screen size.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Accessibility**: I made sure that the landing page is accessible and adheres to web accessibility standards. I used semantic HTML elements, added alt text to images for screen readers, and ensured that the page is keyboard navigable for users who rely on keyboard input.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+4. **Performance Optimization**: I optimized the performance of the landing page by optimizing images, minifying CSS and JavaScript files, and reducing unnecessary HTTP requests. I also used lazy loading and code splitting techniques to improve the loading speed of the page, ensuring a smooth user experience.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+5. **Animations**: I added animations to enhance the visual appeal and user engagement of the landing page. I used CSS animations and transitions to add subtle animations to elements such as buttons and images, making the page more interactive and engaging for users.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Overall, I focused on building a maintainable system for longevity and future simplicity by following best practices for front-end development, ensuring responsiveness, accessibility, performance optimization, and adding animations to enhance the user experience.

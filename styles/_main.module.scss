@@ -1,0 +1,183 @@
+@import "./_variables";
+
+.styles {
+  color: $color-200;
+  background: $color-800;
+
+  section,
+  header,
+  footer {
+    background: $color-800;
+    color: $color-200;
+  }
+
+  section {
+    padding: $padding-1000 $padding-800;
+
+    @media only screen and (max-width: 768px) {
+      & {
+        padding: $padding-800 $padding-600 $padding-600;
+      }
+    }
+  }
+
+  // HERO //
+  h1 {
+    font-size: $font-size-600;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.02em;
+    white-space: pre-line;
+
+    color: $color-200;
+    text-shadow: rgba(239, 236, 230, 0.1) 10px 0 30px;
+
+    @media only screen and (max-width: 768px) {
+      & {
+        font-size: $font-size-500;
+      }
+    }
+  }
+
+  // PRIMARY //
+  h2 {
+    font-size: $font-size-500;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.01em;
+
+    color: $color-200;
+  }
+
+  // SECONDARY //
+  h3 {
+    font-size: $font-size-400;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.01em;
+
+    color: $color-200;
+  }
+
+  // SUB SECONDARY //
+  h4 {
+    font-size: $font-size-300;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+    letter-spacing: -0.01em;
+
+    color: $color-400;
+  }
+
+  // BODY HEADER //
+  h5 {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-200;
+  }
+
+  // HEADER HYPERLINKS //
+  h5 a {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-100;
+  }
+
+  // BODY //
+  p {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-400;
+  }
+
+  // HYPERLINKS //
+  p a {
+    text-decoration: underline;
+
+    color: $color-100;
+  }
+
+  // LINKS //
+  h5 a {
+    color: $color-100;
+    text-decoration: underline;
+  }
+
+  // TERTIARY //
+  strong {
+    font-family: $font-secondary;
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    line-height: 1.15em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $color-400;
+  }
+  strong[invert] {
+    color: $color-500;
+  }
+
+  // INPUT //
+  input {
+    font-family: $font-primary;
+    font-size: $font-size-150;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-200;
+
+    &::placeholder {
+      color: $color-500;
+    }
+  }
+
+  // BUTTON //
+  button {
+    font-family: "Inter" sans-serif;
+    background: none;
+    border: none;
+    white-space: nowrap;
+
+    cursor: pointer;
+  }
+
+  // DISCLOSURE //
+  small {
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    color: $color-500;
+  }
+
+  // SMALL HYPERLINKS //
+  small a {
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    color: $color-500;
+  }
+
+  hr {
+    margin: 0;
+    width: 100%;
+
+    border-color: $color-400;
+  }
+}

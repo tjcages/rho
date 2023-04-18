@@ -1,0 +1,36 @@
+@import "./_variables.scss";
+
+.main {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: $padding-600;
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    gap: $padding-300;
+
+    .section {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: $padding-300;
+
+      opacity: 0.3;
+      transition: opacity $animation-duration-short $animation-easing;
+
+      &.selected {
+        opacity: 1;
+      }
+
+      strong {
+        color: $color-200;
+      }
+    }
+  }
+}

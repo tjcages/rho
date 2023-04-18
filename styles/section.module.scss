@@ -1,0 +1,29 @@
+@import "./variables";
+
+.main {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr) auto;
+  gap: $padding-800;
+
+  @media only screen and (max-width: 768px) {
+    & {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: $padding-600;
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: $padding-600;
+        right: $padding-600;
+        bottom: 0;
+
+        border-bottom: 1px solid $color-600;
+      }
+    }
+  }
+}

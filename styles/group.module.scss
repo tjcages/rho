@@ -1,0 +1,53 @@
+@import "./variables";
+
+.main {
+  position: relative;
+
+  .child {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 60vmin;
+    max-height: 80vmin;
+
+    scroll-snap-align: start;
+
+    @media only screen and (max-width: 768px) {
+      & {
+        min-height: 40vh;
+        max-height: none;
+
+        scroll-snap-align: none;
+      }
+    }
+  }
+
+  .progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform-origin: 0%;
+
+    height: $padding-50;
+    background: $color-100;
+  }
+
+  ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: $color-500;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $color-500;
+    -webkit-border-radius: 1ex;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: $color-500;
+  }
+}
